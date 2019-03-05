@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TestPlugin</title>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+            <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+            <script type="text/javascript" charset="utf-8">
+                function gameSdkPlugin() {
+                    YleGameSDKPlugin.coolMethod("YLe","001",alertSuccess,alertFail);
+                }
+            
+                function alertSuccess(msg) {
+                    alert(msg);
+                }
+            
+                function alertFail(msg) {
+                    alert('调用OC失败: ' + msg);
+                }
+                </script>
+            </head>
+    
+    <body style="padding-top:50px">
+        <button style="font-size:17px;" onclick="gameSdkPlugin();">调用gameSdkPlugin</button> <br>
+    </body>
+</html>
+
+

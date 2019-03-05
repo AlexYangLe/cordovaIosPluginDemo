@@ -1,0 +1,18 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.gamesdk.YLe"
+    },
+    "cordova-plugin-gamesdkplugin": {
+      "PACKAGE_NAME": "com.gamesdk.YLe"
+    }
+  },
+  "dependent_plugins": {}
+}
