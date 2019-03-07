@@ -6,16 +6,14 @@
             <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
             <script type="text/javascript" charset="utf-8">
                 function gameSdkPlugin() {
-                    YleGameSDKPlugin.coolMethod("YLe","001",alertSuccess,alertFail);
+                    YleGameSDKPlugin.coolMethod("YLe","007",
+                                                msg =>{alert(msg),
+                                                err =>{alert('调用OC失败:' + msg)}
+                                                })
+                                                
                 }
             
-                function alertSuccess(msg) {
-                    alert(msg);
-                }
-            
-                function alertFail(msg) {
-                    alert('调用OC失败: ' + msg);
-                }
+
                 </script>
             </head>
     
